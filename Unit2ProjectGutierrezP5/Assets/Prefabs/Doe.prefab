@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d27db2bfd912d1348816cb2f09cd29fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 15
 --- !u!114 &-4407820495604721711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,8 +903,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.3618823, y: 0.44305316, z: 0.5569103}
+  m_Center: {x: -0.031419575, y: 0.23368736, z: 0.032804348}
 --- !u!1 &7596430453899843671
 GameObject:
   m_ObjectHideFlags: 0
