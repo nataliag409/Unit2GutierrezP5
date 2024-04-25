@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
+    public Transform projectileSpawnPoint;
+
     public float zMin;
     public float zMax;
     public float verticalInput;
@@ -25,7 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
         }
         if (transform.position.x < -10)
         {
